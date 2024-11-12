@@ -1,0 +1,17 @@
+<div>
+    <h1>STRING-INTERPOLATION</h1>
+    <p>bookId:{{bookId}}</p><br>
+    <p>bookName:{{bookName}}</p><br>
+    <p>author:{{author}}</p>
+</div>
+<div>
+    <button  class="btn-primary"*ngIf="btn" (click)="Clickbtn()">click</button>
+</div>
+
+<div>TWO-WAY DATA BINDING</div>
+
+<div>
+    <input type="text" title="Enter"  [(ngModel)]="name"/>
+</div>
+<p>Entered Value : {{name}}</p>
+<button (click)="logdata()">data</button> 
